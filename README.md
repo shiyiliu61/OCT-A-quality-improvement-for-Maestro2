@@ -34,6 +34,8 @@ git clone git@github.com:shiyiliu/******
 - Pull the Docker image:
 \\oak-rdshare\docker\shiyi_test:test.tar
 
+if on Docker Hub: docker push shiyiliu/shiyi_test:tagname
+
 - Environment setup:
 ```
 Docker load –-input location/shiyi_test:test.tar
